@@ -29,8 +29,11 @@ public class SearchNilai12{
         }
           
         System.out.println();
-        System.out.println("Nilai " +key + " Berada di indeks ke-" +hasil);
-        System.out.println();
+        if (hasil != -1){
+            System.out.println("Nilai " +key + " Berada di indeks ke-" +hasil);
+        } else {
+            System.out.println("Nilai yang diinputkan tidak ditemukan");
+        }
 
     }
 }
